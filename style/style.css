@@ -18,6 +18,8 @@ body {
     background-color: grey;
 }
 
+
+
 @media only screen and (max-width: 411px) {
     body {
         font-size: 14px;
@@ -103,6 +105,11 @@ h3 {
     transition: 0.75s;
 }
 
+#presentation {
+    border: #000 1px;
+
+}
+
 .ombre {
     box-shadow: -4px 0px 10px 1px rgba(37, 44, 63, 0.22);
 }
@@ -117,6 +124,14 @@ h3 {
     padding-top: 230px;
     text-align: center;
     padding-left: 30px;
+}
+
+#stage {
+    padding-top: 100px;
+    width: 100%;
+    display: inline-block;
+    height: 50%;
+
 }
 
 #logo {
@@ -345,7 +360,20 @@ h2 {
     color: #031b4e;
     font-size: 28px;
     font-weight: 500;
+
 }
+
+h3 {
+    color: #031b4e;
+    font-size: 22px;
+    font-weight: 420;
+    padding: 20px;
+}
+
+h4 {
+    color: #031b4e;
+}
+
 
 @media only screen and (max-width: 411px) {
     h2 {
@@ -606,10 +634,7 @@ section {
 
 /* COMPETENCES  */
 
-#Competences {
-    background: url("../assets/fond2.png");
-    background-repeat: no-repeat;
-}
+
 
 #competenceType {
     display: flex;
@@ -655,11 +680,7 @@ section {
 }
 
 @media only screen and (max-width: 411px) {
-    #Competences {
-        padding-bottom: 67px;
-        background: url("../assets/fond2Mobile.png");
-        background-repeat: no-repeat;
-    }
+
 
     #competenceType {
         display: inline;
@@ -674,22 +695,14 @@ section {
     }
 }
 
-#Presentation {
-    background: url("../assets/fond.png");
-    background-repeat: no-repeat;
-    padding: 50px 0px 20px 0px;
-}
+
 
 #PresentationCompetence {
     background-repeat: no-repeat;
     padding: 20px 0px 15px 0px;
 }
 
-#PresentationEntreprise {
-    background: url("../assets/fond.png");
-    background-repeat: no-repeat;
-    padding: 175px 0px 10px 0px;
-}
+
 
 #PresentationVisual {
     background-color: #f4f6fc;
@@ -733,10 +746,11 @@ section {
     margin-top: 44px;
 }
 
-#projets {
+#projet {
     background-color: grey;
-    width: 100%;
-    padding-top: 25px;
+
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 #containProjet {
@@ -756,4 +770,13 @@ section {
     height: 200px;
     border-radius: 25%;
     box-shadow: 15px 15px 20px #3754aa17, -10px -10px 20px #0f0f0f80, 4px 4px 20px #ffffff80 inset, -10px -10px 20px #3754aa17;
+}
+
+#img {
+    display: inline-block;
+
+}
+
+img {
+    padding: 10px;
 }
